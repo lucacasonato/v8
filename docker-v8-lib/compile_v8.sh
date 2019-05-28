@@ -17,6 +17,7 @@ gn gen out.gn/lib --args='
 
     v8_static_library = true
     is_component_build = false
+    use_lld = false
     use_custom_libcxx = false
     use_custom_libcxx_for_host = false
 
